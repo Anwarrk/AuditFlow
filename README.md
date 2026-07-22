@@ -8,6 +8,9 @@ AuditFlow provides a structured way to follow the Information Security Audit Pro
 
 The assistant helps auditors initialize audit sessions, select audit frameworks, validate planning requirements, and generate audit findings when requirements are not satisfied.
 
+<img width="319" height="157" alt="image" src="https://github.com/user-attachments/assets/60802d5c-0ab0-44df-9fe7-95898dd408f9" />
+
+
 ## Audit Process
 
 AuditFlow follows three main audit phases:
