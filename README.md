@@ -136,10 +136,7 @@ Planning Summary
 ## Future Improvements
 
 - Add Fieldwork & Documentation workflow execution
-- Add evidence collection and management
 - Add control assessment features
-- Add reporting generation
-- Export audit reports
 - Support additional audit frameworks
 
 ## License
