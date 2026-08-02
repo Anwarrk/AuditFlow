@@ -1,12 +1,13 @@
 # AuditFlow 🔍
 
-AuditFlow is an interactive audit workflow assistant that automates audit workflow navigation, guides auditors through audit phases, and supports audit documentation.
+AuditFlow is an interactive command-line assistant that automates the Information Security Audit workflow, guiding auditors through Planning, Fieldwork & Documentation, and Reporting & Follow-Up.
 
 ## Overview
 
-AuditFlow provides a structured way to follow the Information Security Audit Process through an interactive command-line interface.
+The application simulates real-world information security audit activities across Planning, Fieldwork & Documentation, and Reporting & Follow-Up using an interactive Rich terminal interface.
 
-The assistant helps auditors initialize audit sessions, select audit frameworks, validate planning requirements, and generate audit findings when requirements are not satisfied.
+It helps auditors initialize audit sessions, select audit frameworks, validate planning requirements, document findings, and manage follow-up activities throughout the audit lifecycle.
+
 
 <img width="319" height="157" alt="image" src="https://github.com/user-attachments/assets/60802d5c-0ab0-44df-9fe7-95898dd408f9" />
 
@@ -19,49 +20,40 @@ AuditFlow follows three main audit phases:
 2. Fieldwork & Documentation
 3. Reporting & Follow-Up
 
-Currently, AuditFlow focuses on the Planning phase and provides a foundation for expanding the remaining audit phases.
 
 ## Features
 
-- Interactive command-line audit assistant
-- Auditor session initialization
-- Organization and framework selection
-- Support for audit frameworks:
-  - ISO 27001
-  - NCA ECC
-- Audit process visualization
-- Planning phase assessment workflow
-- Decision-based validation
-- Finding creation for unmet requirements
-- Audit planning summary generation
+- Interactive audit workflow assistant
+- Interactive audit workflow visualization
+- Audit session initialization
+- Organization and audit framework selection
+- Support for ISO 27001 and NCA ECC
+- Planning workflow with decision validation
+- Fieldwork & Documentation workflow
+- Reporting & Follow-Up workflow
+- Corrective Action Plan (CAP) tracking
+- Follow-up review scheduling
+- Audit finding generation
+- Rich terminal user interface
 
 ## Technologies
 
 - Python
-- Rich Library (Terminal UI)
-
+- Rich (Terminal UI)
+  
 ## Project Structure
 
 ```
 AuditFlow/
 │
 ├── main.py
-│   └── Main application interface
-│
 ├── audit_workflow.py
-│   └── Audit workflow and planning assessment logic
-│
-├── audit_phases.py
-│   └── Information about remaining audit phases
-│
+├── audit_process_2.py
+├── audit_process_3.py
 ├── findings.py
-│   └── Finding creation and management
-│
 ├── README.md
-│   └── Project documentation
-│
 └── .gitignore
-    └── Git configuration
+
 ```
 
 ## Installation
@@ -111,36 +103,36 @@ Then follow the interactive workflow:
 1. Start a new audit session
 2. Enter auditor and organization information
 3. Select an audit framework
-4. Review the audit process
-5. Complete the planning assessment
-6. View the audit summary
+4. Complete the Planning phase
+5. Perform Fieldwork & Documentation
+6. Complete Reporting & Follow-Up
+7. Review the audit session summary
 
-## Workflow Example
+## Audit Workflow
 
 ```
 Audit Session
-      |
-      ↓
-Planning Phase
-      |
-      ↓
-Scope Validation
-      |
-      ↓
-Objectives Validation
-      |
-      ↓
-Stakeholders Validation
-      |
-      ↓
-Planning Summary
+      │
+      ▼
+   Planning
+      │
+      ▼
+Fieldwork & Documentation
+      │
+      ▼
+Reporting & Follow-Up
+      │
+      ▼
+Audit Summary
 ```
 
 ## Future Improvements
 
-- Add Fieldwork & Documentation workflow execution
-- Add control assessment features
+- Export audit reports to PDF or Word
+- Save and resume audit sessions
 - Support additional audit frameworks
+- Generate professional audit reports automatically
+- Dashboard and audit analytics
 
 ## License
 
